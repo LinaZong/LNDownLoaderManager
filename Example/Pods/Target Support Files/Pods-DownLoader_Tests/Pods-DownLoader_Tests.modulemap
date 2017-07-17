@@ -1,0 +1,6 @@
+framework module Pods_DownLoader_Tests {
+  umbrella header "Pods-DownLoader_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

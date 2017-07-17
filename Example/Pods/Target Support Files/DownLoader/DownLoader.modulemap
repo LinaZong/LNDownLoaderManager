@@ -1,0 +1,6 @@
+framework module DownLoader {
+  umbrella header "DownLoader-umbrella.h"
+
+  export *
+  module * { export * }
+}

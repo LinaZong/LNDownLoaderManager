@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C25780F1F1C991800E66B23 /* NSString+LNMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C25780E1F1C991800E66B23 /* NSString+LNMD5.m */; };
+		0C2578121F1C9A2C00E66B23 /* LNDownLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2578111F1C9A2C00E66B23 /* LNDownLoaderManager.m */; };
+		0CEF11F81F15FF4100204AAF /* LNFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEF11F71F15FF4100204AAF /* LNFileTool.m */; };
+		0CEF11FB1F1616F200204AAF /* LNDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEF11FA1F1616F200204AAF /* LNDownLoader.m */; };
 		3495FE33C13ACE9D12C2B025 /* Pods_DownLoader_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBABC80ECDCA4CD634E8C2F /* Pods_DownLoader_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C25780D1F1C991800E66B23 /* NSString+LNMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LNMD5.h"; sourceTree = "<group>"; };
+		0C25780E1F1C991800E66B23 /* NSString+LNMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LNMD5.m"; sourceTree = "<group>"; };
+		0C2578101F1C9A2C00E66B23 /* LNDownLoaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNDownLoaderManager.h; sourceTree = "<group>"; };
+		0C2578111F1C9A2C00E66B23 /* LNDownLoaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNDownLoaderManager.m; sourceTree = "<group>"; };
+		0CEF11F61F15FF4100204AAF /* LNFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNFileTool.h; sourceTree = "<group>"; };
+		0CEF11F71F15FF4100204AAF /* LNFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNFileTool.m; sourceTree = "<group>"; };
+		0CEF11F91F1616F200204AAF /* LNDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNDownLoader.h; sourceTree = "<group>"; };
+		0CEF11FA1F1616F200204AAF /* LNDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNDownLoader.m; sourceTree = "<group>"; };
 		18E36DCDFABB404E9B9F4514 /* Pods-DownLoader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownLoader_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownLoader_Example/Pods-DownLoader_Example.release.xcconfig"; sourceTree = "<group>"; };
 		194E03CDBA3481CF5C0024BA /* Pods-DownLoader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownLoader_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownLoader_Tests/Pods-DownLoader_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3356A4F151339C7BFA22B5B2 /* Pods-DownLoader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownLoader_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownLoader_Example/Pods-DownLoader_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -60,12 +72,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6AFE73C0BB13FE895E3168D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6AFE73C0BB13FE895E3168D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848EA0ED43F0EA04BA1437EC /* Pods_DownLoader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownLoader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A471C760FB73B35133B5497 /* DownLoader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DownLoader.podspec; path = ../DownLoader.podspec; sourceTree = "<group>"; };
-		9AC4E194F29E47FEED49FA27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8A471C760FB73B35133B5497 /* DownLoader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DownLoader.podspec; path = ../DownLoader.podspec; sourceTree = "<group>"; };
+		9AC4E194F29E47FEED49FA27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9CBABC80ECDCA4CD634E8C2F /* Pods_DownLoader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownLoader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -95,6 +107,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CEF11F51F15FEB500204AAF /* DownLoaderTool */ = {
+			isa = PBXGroup;
+			children = (
+				0CEF11F61F15FF4100204AAF /* LNFileTool.h */,
+				0CEF11F71F15FF4100204AAF /* LNFileTool.m */,
+				0CEF11F91F1616F200204AAF /* LNDownLoader.h */,
+				0CEF11FA1F1616F200204AAF /* LNDownLoader.m */,
+				0C25780D1F1C991800E66B23 /* NSString+LNMD5.h */,
+				0C25780E1F1C991800E66B23 /* NSString+LNMD5.m */,
+				0C2578101F1C9A2C00E66B23 /* LNDownLoaderManager.h */,
+				0C2578111F1C9A2C00E66B23 /* LNDownLoaderManager.m */,
+			);
+			path = DownLoaderTool;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,11 +159,12 @@
 		6003F593195388D20070C39A /* Example for DownLoader */ = {
 			isa = PBXGroup;
 			children = (
+				0CEF11F51F15FEB500204AAF /* DownLoaderTool */,
 				6003F59C195388D20070C39A /* LNAppDelegate.h */,
 				6003F59D195388D20070C39A /* LNAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* LNViewController.h */,
 				6003F5A6195388D20070C39A /* LNViewController.m */,
+				6003F5A5195388D20070C39A /* LNViewController.h */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -250,6 +278,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = nanaLxs;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 4ER4GHG4VC;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -408,7 +439,11 @@
 			files = (
 				6003F59E195388D20070C39A /* LNAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LNViewController.m in Sources */,
+				0C25780F1F1C991800E66B23 /* NSString+LNMD5.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				0C2578121F1C9A2C00E66B23 /* LNDownLoaderManager.m in Sources */,
+				0CEF11FB1F1616F200204AAF /* LNDownLoader.m in Sources */,
+				0CEF11F81F15FF4100204AAF /* LNFileTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,12 +571,15 @@
 			baseConfigurationReference = 3356A4F151339C7BFA22B5B2 /* Pods-DownLoader_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4ER4GHG4VC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DownLoader/DownLoader-Prefix.pch";
 				INFOPLIST_FILE = "DownLoader/DownLoader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -551,12 +589,15 @@
 			baseConfigurationReference = 18E36DCDFABB404E9B9F4514 /* Pods-DownLoader_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4ER4GHG4VC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DownLoader/DownLoader-Prefix.pch";
 				INFOPLIST_FILE = "DownLoader/DownLoader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
